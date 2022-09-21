@@ -25,7 +25,7 @@ async def read_news(news_id: str, text: str | None = None):
     return {"news_id": news_id, "text": "no news"}
 
 
-@router.post("/news/")
+@router.post("/desknews/")
 async def create_news(news: contracts.News):
     """Make description news."""
     news_dict = news.dict()
