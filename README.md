@@ -1,1 +1,1 @@
-# python-web-2022
+# Client-server shop emulator
